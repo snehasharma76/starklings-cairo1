@@ -11,9 +11,10 @@
 // I AM NOT DONE
 
 
-fn create_dictionary() -> Felt252Dict<u32> {
+fn create_dictionary(u32:int) -> Felt252Dict<u32> {
     let mut dict: Felt252Dict<u32> = Default::default();
     //TODO
+    dict.insert('Alex', 100);
 
 }
 
